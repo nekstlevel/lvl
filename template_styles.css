@@ -1,0 +1,16 @@
+a.action-link{transition:opcaity .2s;position:absolute;top:160px;right:0;display:block;padding:20px 30px;background-color:#f57920;color:#fff!important;font-family:'BebasNeueBold','bebas-neue-bold';font-size:24px;text-decoration:none}a.action-link:hover{opacity:.6}@media (max-width:750px){a.action-link{display:none}}table.rable_t{border:0;border-collapse:collapse}table.rable_t tr td,table.rable_t tr th{padding:5px 10px;border:1px solid #777}#header .social-links{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-end;align-items:center;padding:10px 0 0}#header .social-links a{display:block;width:30px;height:30px;opacity:1;text-decoration:none;padding:0;margin:0 0 0 15px;background-repeat:no-repeat;background-position:center center;background-size:contain}#header .social-links a.vk{background-image:url("")}#header .social-links a.inst{background-image:url("inst.png")}#header .social-links a.fb{background-image:url("")}#header .social-links a:hover{opacity:.7}
+/*# sourceMappingURL=template_styles.css.map */
+
+.section-gallery .section-filter { margin: 40px 0; }
+.section-gallery .section-filter ul { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; list-style: none; margin: 0 -4px; padding: 0; }
+.section-gallery .section-filter ul>li { margin: 0 4px 8px; }
+.section-gallery .section-filter ul>li a { display: block; margin: 0; padding: 6px 12px; cursor: pointer; color: #fff; background: #444; text-decoration: none; }
+.section-gallery .section-filter ul>li a.active { background-color: #f57920; }
+
+@media (max-width: 599px)
+.section-gallery .section-filter ul {
+  display: block;
+  width: 75vw;
+  margin: 0 auto;
+  padding: 0 15px;
+}
